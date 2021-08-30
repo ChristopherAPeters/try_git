@@ -2,7 +2,7 @@
   "summary": {
     "title": "API gateway",
     "owner": "Security team",
-    "description": "TBD"
+    "description": "The interface that customers use to access the Commure platform in order to store or retrieve health data."
   },
   "detail": {
     "contributors": [],

@@ -190,8 +190,8 @@
                 "height": 100
               },
               "position": {
-                "x": 798,
-                "y": 271
+                "x": 948,
+                "y": 264
               },
               "angle": 0,
               "id": "ab6a1689-95f4-4538-bd26-1e6a530c9f6e",
@@ -242,8 +242,8 @@
                 "height": 80
               },
               "position": {
-                "x": 779,
-                "y": 422
+                "x": 943,
+                "y": 412
               },
               "angle": 0,
               "id": "c72cb1cb-3739-4f0a-b31f-c0fe4ac1cc2c",
@@ -276,8 +276,8 @@
                   "y": 292
                 },
                 {
-                  "x": 698,
-                  "y": 294
+                  "x": 706,
+                  "y": 291
                 }
               ],
               "id": "87b6594a-6bd7-4774-9a0e-2648e7838095",
@@ -318,8 +318,8 @@
               },
               "vertices": [
                 {
-                  "x": 718,
-                  "y": 336
+                  "x": 734,
+                  "y": 340
                 },
                 {
                   "x": 677,
@@ -578,6 +578,126 @@
                 }
               ],
               "z": 22,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "eae0630a-2045-4b82-9bad-a743e63197d7"
+              },
+              "target": {
+                "id": "002a8615-3771-41a8-a775-ec22518ef905"
+              },
+              "vertices": [],
+              "id": "df623404-a188-4924-896c-48d1176ecc14",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Policy check",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 23,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 535,
+                "y": 393
+              },
+              "angle": 0,
+              "id": "fa26f0d3-cbc1-4ca1-8815-3e69b9617e9c",
+              "z": 24,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Admin\ninterface"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 406,
+                "y": 540
+              },
+              "angle": 0,
+              "id": "43dbbb37-83b1-4430-aacd-9a466fecb653",
+              "z": 25,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Commure employees"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "43dbbb37-83b1-4430-aacd-9a466fecb653"
+              },
+              "target": {
+                "id": "56c5e00c-eb4f-44c1-93b5-ab2dddce39ff"
+              },
+              "vertices": [],
+              "id": "f65dd10c-e743-4d79-8560-43cb2eae4dac",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Create/read/edit/del\npolicies",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 26,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {

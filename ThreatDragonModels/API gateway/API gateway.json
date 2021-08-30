@@ -265,52 +265,6 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "a60cc98d-48ab-4d9f-b202-2baf2ad1d456"
-              },
-              "target": {
-                "id": "ab6a1689-95f4-4538-bd26-1e6a530c9f6e"
-              },
-              "vertices": [
-                {
-                  "x": 672,
-                  "y": 292
-                },
-                {
-                  "x": 706,
-                  "y": 291
-                }
-              ],
-              "id": "87b6594a-6bd7-4774-9a0e-2648e7838095",
-              "labels": [
-                {
-                  "position": {
-                    "distance": 0.4970789455565249,
-                    "offset": -18.002752971283755
-                  },
-                  "attrs": {
-                    "text": {
-                      "text": "Authentication\nrequest",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 12,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
                 "id": "ab6a1689-95f4-4538-bd26-1e6a530c9f6e"
               },
               "target": {
@@ -629,8 +583,8 @@
                 "height": 100
               },
               "position": {
-                "x": 535,
-                "y": 393
+                "x": 469,
+                "y": 467
               },
               "angle": 0,
               "id": "fa26f0d3-cbc1-4ca1-8815-3e69b9617e9c",
@@ -655,8 +609,8 @@
                 "height": 80
               },
               "position": {
-                "x": 406,
-                "y": 540
+                "x": 433,
+                "y": 590
               },
               "angle": 0,
               "id": "43dbbb37-83b1-4430-aacd-9a466fecb653",
@@ -698,6 +652,74 @@
                 }
               ],
               "z": 26,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 709,
+                "y": 422
+              },
+              "angle": 0,
+              "id": "50dbe270-28a4-402a-a5f6-3f935f59e5aa",
+              "z": 27,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "logging"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "ab6a1689-95f4-4538-bd26-1e6a530c9f6e"
+              },
+              "target": {
+                "id": "a60cc98d-48ab-4d9f-b202-2baf2ad1d456"
+              },
+              "vertices": [
+                {
+                  "x": 744,
+                  "y": 281
+                }
+              ],
+              "id": "06fbcdc4-450e-4369-bffb-dc11514821ff",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5352596560641051,
+                    "offset": 31.431285101312504
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "AuthN request",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 28,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {

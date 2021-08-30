@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "title": "API gateway",
+    "owner": "Security team",
+    "description": "TBD"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "API gateway processing data flow diagram",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Architecure team"
+  }
+}

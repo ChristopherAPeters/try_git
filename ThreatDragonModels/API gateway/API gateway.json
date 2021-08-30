@@ -10,7 +10,184 @@
       {
         "title": "API gateway processing data flow diagram",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 417,
+                "y": 14
+              },
+              "angle": 0,
+              "id": "129c0947-4c8c-4b8e-a5ab-4084a151f503",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Customers"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 55,
+                "y": 71
+              },
+              "target": {
+                "x": 1059,
+                "y": 73
+              },
+              "vertices": [
+                {
+                  "x": 36,
+                  "y": 86
+                },
+                {
+                  "x": 143,
+                  "y": 131
+                },
+                {
+                  "x": 868,
+                  "y": 162
+                }
+              ],
+              "id": "ed870d7a-e6d8-4848-9b03-10bace1ff2c3",
+              "z": 2,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 455,
+                "y": 268
+              },
+              "angle": 0,
+              "id": "a60cc98d-48ab-4d9f-b202-2baf2ad1d456",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "API gateway"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "a60cc98d-48ab-4d9f-b202-2baf2ad1d456"
+              },
+              "target": {
+                "id": "129c0947-4c8c-4b8e-a5ab-4084a151f503"
+              },
+              "vertices": [
+                {
+                  "x": 539,
+                  "y": 204
+                },
+                {
+                  "x": 530,
+                  "y": 163
+                }
+              ],
+              "id": "afe9365c-886f-420d-bbb4-7a7c46ac2917",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5000027238614155,
+                    "offset": 20.006246908548537
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "API response",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "129c0947-4c8c-4b8e-a5ab-4084a151f503"
+              },
+              "target": {
+                "id": "a60cc98d-48ab-4d9f-b202-2baf2ad1d456"
+              },
+              "vertices": [
+                {
+                  "x": 451,
+                  "y": 182
+                }
+              ],
+              "id": "0acbef74-faa0-4aa0-8b90-1de74f82fb1a",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.523475308175506,
+                    "offset": 52.07027440673604
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "API request",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 1153.49365234375
+        }
       }
     ],
     "reviewer": "Architecure team"

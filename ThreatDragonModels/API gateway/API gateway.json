@@ -583,8 +583,8 @@
                 "height": 100
               },
               "position": {
-                "x": 469,
-                "y": 467
+                "x": 20,
+                "y": 199
               },
               "angle": 0,
               "id": "fa26f0d3-cbc1-4ca1-8815-3e69b9617e9c",
@@ -727,6 +727,32 @@
                 },
                 ".connection": {
                   "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 476,
+                "y": 455
+              },
+              "angle": 0,
+              "id": "59077f5e-22ab-40cd-be68-d2362e33cd7e",
+              "z": 29,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Services"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             }

@@ -197,9 +197,10 @@
               "id": "ab6a1689-95f4-4538-bd26-1e6a530c9f6e",
               "z": 7,
               "hasOpenThreats": false,
+              "outOfScope": true,
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
                 },
                 "text": {
                   "text": "Authentication"
@@ -423,9 +424,10 @@
               "id": "51e7f0d6-f179-4c95-929c-2a5e8756ea33",
               "z": 19,
               "hasOpenThreats": false,
+              "outOfScope": true,
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
                 },
                 "text": {
                   "text": "Rate limiting"
@@ -676,9 +678,10 @@
               "id": "50dbe270-28a4-402a-a5f6-3f935f59e5aa",
               "z": 27,
               "hasOpenThreats": false,
+              "outOfScope": true,
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
                 },
                 "text": {
                   "text": "logging"
@@ -744,9 +747,11 @@
               "id": "59077f5e-22ab-40cd-be68-d2362e33cd7e",
               "z": 29,
               "hasOpenThreats": false,
+              "outOfScope": true,
+              "reasonOutOfScope": "Need their own threat models",
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
                 },
                 "text": {
                   "text": "Services"
@@ -794,10 +799,6 @@
                 {
                   "x": 482,
                   "y": 410
-                },
-                {
-                  "x": 486,
-                  "y": 452
                 }
               ],
               "id": "b3fd3ed9-a32a-4ae9-92b7-3163210e6523",
@@ -859,6 +860,46 @@
                 }
               ],
               "z": 32,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "fa26f0d3-cbc1-4ca1-8815-3e69b9617e9c"
+              },
+              "target": {
+                "x": 465,
+                "y": 270
+              },
+              "vertices": [
+                {
+                  "x": 228,
+                  "y": 197
+                }
+              ],
+              "id": "a6541c71-4680-40c8-93b6-99817ff64e9c",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Commands",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 33,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
